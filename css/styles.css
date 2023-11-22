@@ -218,6 +218,9 @@ header {
     border: 7px solid #521908;
     margin: 60px auto;
 
+    cursor: pointer;
+    background-color: #FFE091;
+
 }
 
 .events-header-text {
@@ -299,6 +302,7 @@ header {
     flex-shrink: 0;
     border-radius: 30px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 /* CONTACTS */
@@ -464,15 +468,18 @@ header {
 }
 
 .list-all {
-    width: 400px;
+    width: 440px;
     height: 70px;
     flex-shrink: 0;
     border-radius: 20px;
     border: 7px solid #521908;
 
+    background-color: #FFE091;
+
     margin-top: 30px;
     margin-left: 50px;
     text-align: center;
+        cursor: pointer;
 }
 
 
@@ -573,6 +580,7 @@ header {
     top: 550px;
     left: 600px;
     text-align: center;
+    cursor: pointer;
 }
 
 .post-button-text1 {
@@ -652,6 +660,8 @@ header {
     top: 550px;
     left: 600px;
     text-align: center;
+
+    cursor: pointer;
 }
 
 .post-button-text2 {
@@ -669,18 +679,20 @@ header {
 
 .book-bgd {
 
-    background: #521908;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     width: 100%;
-    height: 800px;
-    position: relative;
-    display: flex;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #8F5F38;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+
+
 }
-/* 
+
 .book-form {
 
     display: flex;
@@ -688,13 +700,13 @@ header {
     align-items: center;
 
 }
-*/
+
 
 .book-form-container {
     background: #FFE091;
     width: 700px;
     height: 330px;
-    position: relative;
+    position: absolute;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -702,12 +714,12 @@ header {
 }
 
 .book-box {
-    width: 650px;
+    width: 680px;
     height: 280px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 7px solid #521908;
-    display: flex;
+
     justify-content: center;
 }
 
@@ -719,13 +731,13 @@ header {
     font-weight: 400;
     line-height: normal;
     display: flex;
-    margin-top: -200px;
+    margin-top: 30px;
     margin-left: 200px;
 }
 
 .book-wrapper {
     width: 650px;
-    height: 280px;
+    height: 250px;
     flex-shrink: 0;
     position: absolute;
     display: flex;
@@ -757,6 +769,17 @@ header {
     margin-top: 10px;
     margin-left: 25px;
     text-align: center;
+
+    background-color: #FFE091;
+
+    color: #521908;
+
+    text-align: center;
+    font-family: Judson;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .book-text-name {
@@ -791,15 +814,15 @@ header {
     flex-shrink: 0;
     border-radius: 30px;
     background: #521908;
-    
+    position: relative;
     color: #FFE091;
     font-family: Judson;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 210px;
-    margin-right: 45px;
+    margin-top: 130px;
+    margin-left: 200px;
 
     cursor: pointer;
 }
@@ -807,7 +830,7 @@ header {
 /* BOOK2 */
 
 .book-bgd2 {
-    background: #521908;
+    background: #8F5F38;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -861,4 +884,5 @@ header {
 
     cursor: pointer;
 }
+
 
